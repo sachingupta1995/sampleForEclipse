@@ -64,7 +64,7 @@ public class FirstClass implements FirstInterface {
 		else if(choice==5)
 			System.out.println("Result after add and subtract is "+ obj.addSub(val1,val2));
 		else 
-			System.out.println("Invalid choice");
+			System.out.println("invalid choice");
 		x.close();
 	}
 }
